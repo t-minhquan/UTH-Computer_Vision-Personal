@@ -1,0 +1,28 @@
+# File hệ thống
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Môi trường & Bí mật (Tuyệt đối không đẩy lên GitHub)
+.env
+.env.local
+*.pem
+*.key
+
+# Thư mục phụ thuộc (Dependencies)
+node_modules/
+vendor/
+venv/
+.venv/
+
+# Thư mục build / biên dịch
+dist/
+build/
+out/
+*.exe
+*.o
+
+# File cấu hình IDE / Editor
+.vscode/
+.idea/
+*.swp
